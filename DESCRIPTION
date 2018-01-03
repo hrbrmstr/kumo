@@ -1,0 +1,25 @@
+Package: kumo
+Type: Package
+Title: Better Wordclouds
+Version: 0.1.0
+Date: 2018-01-02
+Authors@R: c(
+    person("Bob", "Rudis", email = "bob@rud.is", role = c("aut", "cre"), 
+           comment = c(ORCID = "0000-0001-5670-2640"))
+  )
+Maintainer: Bob Rudis <bob@rud.is>
+Description: Better Wordclouds
+Encoding: UTF-8
+URL: https://github.com/hrbrmstr/kumo
+BugReports: https://github.com/hrbrmstr/kumo/issues
+License: AGPL
+Suggests:
+    testthat,
+    covr
+Depends:
+    R (>= 3.2.0),
+    rJava,
+    kumojars
+Imports:
+    magick
+RoxygenNote: 6.0.1.9000
